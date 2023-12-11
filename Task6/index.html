@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- За допомогою prompt попросіть користувача ввести пропозицію. Виведіть на екран кількість слів у цій пропозиції. -->
+</head>
+
+<body>
+<script>
+    let sentence = prompt("Будь ласка, введіть свою пропозицію:");
+    let worldcount = sentence.split(/\s+/).filter(word=> word.length>0).length;
+    console.log ("Кількість слів у пропозиції:" + worldcount);
+     
+</script>
+</body>
+
+</html>
