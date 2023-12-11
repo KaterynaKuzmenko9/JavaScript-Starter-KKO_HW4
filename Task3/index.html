@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Виконайте завдання в директорії Exercises\Tasks\09 Arrays у матеріалах до цього уроку:
+     Завдання:
+        Напишіть сценарій, який знайде у масиві всі негативні значення та замініть їх на значення 0.
+        Після цього виведе на екран усі елементи масиву.   -->
+</head>
+
+<body>
+    <script>
+        let Arrays= [2, -3, 1, -6, 0, -4, 5];
+        for ( let i=0; i< Arrays.length; i++) {
+            if (Arrays[i]< 0) {
+                Arrays[i] = 0;
+            }
+        }
+        console.log ("усі елементи масиву", Arrays);
+    </script>
+
+</body>
+
+</html>
