@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Створіть масив і внесіть до нього 10 випадкових значень. Для створення випадкового значення використовуйте наступний код:
+
+let randomValue = Math.floor(Math.random() * 101); // випадкове значення від 0 до 100 буде записано у змінну randomValue
+
+Виведіть всі значення, внесені в масив, на екран за допомогою циклу. -->
+
+</head>
+
+<body>
+    <script>
+
+        let randomArray = [];
+
+
+        for (let i = 0; i < 10; i++) {
+            let randomValue = Math.floor(Math.random() * 101);
+            randomArray.push(randomValue);
+        }
+
+
+        for (let i = 0; i < randomArray.length; i++) {
+            document.write(randomArray[i]);
+            
+        }
+    </script>
+
+</body>
+
+</html>
