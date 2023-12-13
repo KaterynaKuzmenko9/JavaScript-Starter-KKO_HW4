@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Завдання:
+        Запитайте у користувача число, порахуйте суму всіх чисел між 0 та введеним значенням та відобразіть результат
+        на екрані. -->
+</head>
+<body>
+    <script>
+        let input = prompt("Введіть число:");
+        let number= +input;
+
+            //обчислюємо суму чисел від 0 до введеного значення
+            let sum = 0;
+            for ( let i = 0; i <= number; i++ ) {
+                sum +=i;
+            }
+
+            alert("Сума всіх чисел від 0 до " + number + " дорівнює: " + sum);
+        
+    </script>
+</body>
+</html>
